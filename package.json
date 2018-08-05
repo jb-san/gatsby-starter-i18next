@@ -7,7 +7,9 @@
     "classnames": "^2.2.6",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-copy-files": "^1.0.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-source-filesystem": "^1.5.39",
     "i18next": "^11.3.6",
     "i18next-browser-languagedetector": "^2.2.2",
     "i18next-sync-fs-backend": "1.1.0",
@@ -16,15 +18,16 @@
     "react-i18next": "^7.9.0",
     "xmlhttprequest": "^1.8.0"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format":
-      "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

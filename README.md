@@ -12,5 +12,4 @@ without gatsby-cli installed
 
 ## TODO
 
-right now you need to run `gatsby build` to move the locales files to the `public/` folder, from where they can be read by the client.
-need to figure out how to make gatsby watch the json files.
+- [] live reload on editing of translation files
