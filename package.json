@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-starter-i18next",
+  "description": "Gatsby starter with i18next",
+  "version": "1.0.0",
+  "author": "Jonathan Borg <Jonathan@x3m.io>",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "i18next": "^11.3.6",
+    "i18next-browser-languagedetector": "^2.2.2",
+    "i18next-sync-fs-backend": "1.1.0",
+    "i18next-xhr-backend": "^1.5.1",
+    "react-helmet": "^5.2.0",
+    "react-i18next": "^7.9.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "keywords": ["gatsby"],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.4"
+  }
+}
